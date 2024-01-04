@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1532275948649-7d97f309ef16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.816);
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.621);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+  margin: 80px;
+  width: 70%;
+  max-width: 800px;
+  height: auto;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.801);
+  font-weight: 400;
+  font-size: 2.4em;
+  margin: 10px;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.574);
+  font-weight: 400;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.574);
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.icons {
+  display: flex;
+  padding: 25px;
+  gap: 15px;
+}
+
+.icons i {
+  font-size: 3em;
+}
+
+@media (max-width: 320px) {
+  .card {
+    margin: 50px;
+    padding: 10px;
+  }
+
+  img {
+    width: 120px; 
+  }
+
+  h1 {
+    font-size: 1.3em;
+  }
+
+  h2 {
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.7em;
+  }
+
+  .icons i {
+    font-size: 1.5em; 
+  }
+}
